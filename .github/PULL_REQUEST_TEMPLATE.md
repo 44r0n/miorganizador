@@ -22,7 +22,7 @@ Por favor, especifica las pruebas que has hecho para verificar los cambios. Faci
 # Lista/Checklist:
 
 - [ ] El código sigue la guía de estilo del proyecto./My code follows the style guidelines of this project.
-- [ ] Se han realizado los cambos correspondientes en la documentación./I have made corresponding changes to the documentation
+- [ ] Se han realizado los cambos correspondientes en la documentación (README)./I have made corresponding changes to the documentation (README)
 - [ ] Los cambios no generan nuevas advertencias./My changes generate no new warnings
 - [ ] Se han añadido pruebas nuevas que validan la corrección o la nueva característica./I have added tests that prove my fix is effective or that my feature works
 - [ ] Las nuevas pruebas pasan en local-/ New and existing unit tests pass locally with my changes
