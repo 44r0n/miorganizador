@@ -30,45 +30,47 @@ Desde hace un tiempo he sentido la necesidad de tener en un solo lugar todas "mi
 
 A "mis" cosas me refiero a, lista de la compra, anotación de eventos o recordatorios incluso anotación de las nóminas para tener los datos necesarios para la declaración de hacianda. 
 
-Así que decidí empezar a hacer una aplicación para uso personal y poder organizar todas estas cosas en un solo lugar.  Sé que hay aplicaciones que ya lo hacen, pero no he encontrado ninguna a mi gusto.
+Como no encontraba nada de mi gusto, decidí hacer mi propia apliación para uso personal y poder oragnizarme como a mi me interesa, teniendo todas las cosas en un solo lugar. Por el camino a puede que aprenda algo o puede que a alguien le sirva. 
 
-Here you can provide more details about the project
-* What features does your project provide?
-* Short motivation for the project? (Don't be too long winded)
-* Links to the project site
-
-```
-Show some example code to describe what your project does
-Show some of your APIs
-```
+[Enlace a la web]
 
 **[Back to top](#table-of-contents)**
 
-## Project Status
-
-Show the build status if you have a CI server:
+## Estado del proyecto/Project Status
 
 [![Build Status](http://your-server:12345/job/badge/icon)](http://your-server/job/badge/icon/)
 
-Describe the current release and any notes about the current state of the project. Examples: currently compiles on your host machine, but is not cross-compiling for ARM, APIs are not set, feature not implemented, etc.
+Actualmente no hay build disponible, hay que configurar el repositorio para generarlo. Se desea que compile de manera multiplataforma.
 
 **[Back to top](#table-of-contents)**
 
-## Getting Started
+## Empezando/Getting Started
 
-This section should provide instructions for other developers to
+De momento no hay proyecto iniciado, así que el listado de a coniuación es como me gustaría que funcionase:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Dependencies
-
-Describe what software and libraries you will need to install in order to build and use this project. Provide details on how to resolve these dependencies.
-
-Remember: `git-lfs` is a dependency that developers will need to resolve before they can get started with a repository using LFS.
-
+Se debería poder arrancar el proyecto con un sencillo comando como:
 ```
-Examples should be included
+$ npm run start
 ```
+
+Se debería poder ejecutar los test de forma sencilla con un comando como:
+```
+$ npm run test
+```
+
+Estaría bien poder ejecutar los test en segudno plano con un comando como:
+```
+$ npm run test:dev
+```
+
+Se debería poder construir el proyecto con un comando como:
+```
+$ npm run build
+```
+
+### Dependencias/Dependencies
+
+Las dependencias del proyecto deberían estar listadas en un fichero, como `package.json` y poder ser instaladas con un comando, `npm install`. Seguramente se neceistará tener habilitado `git-lfs`.
 
 ### Getting the Source
 
