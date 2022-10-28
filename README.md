@@ -8,20 +8,20 @@ Sé que será un camino difícil, me lo tomaré con paciencia. Si por el camino 
 
 Puedes ver más detalles [aquí]().
 
-## Índice {#index}
+## Índice
 
-1. [Sobre Mi Organizador](#about)
-1. [Estado del pryecto](#status)
-1. [Por donde empezar](#getting-started)
+1. [Sobre Mi Organizador](#sobre-mi-organizador)
+1. [Estado del pryecto](#estado-del-proyecto)
+1. [Por donde empezar](#por-donde-empezar)
 	1. [Dependencias](#dependencias)
-1. [Proceso de liberación](#release)
+1. [Proceso de liberación](#proceso-de-liberación)
 	1. [Versionado](#versionado)
 1. [Obteniendo ayuda](#obteniendo-ayuda)
 1. [Contribuyendo](#contribuyendo)
 1. [Licencia](#licencia)
 1. [Autores](#autores)
 
-## Sobre Mi Organizador {#about}
+## Sobre Mi Organizador
 
 Hay varios aspectos que me gustaría controlar. Como de momento no hay nada hecho, esta lista de aquí abajo es mas bien una lista de deseos.
 
@@ -32,15 +32,15 @@ Hay varios aspectos que me gustaría controlar. Como de momento no hay nada hech
 
 Viendo ~~las necesidades~~ los deseos que tengo para esta aplicación, se ve claramente que maneja información sensible, por lo que no quiero que se quede en algún servidor. Será una aplicación de escritorio en la que se pueda trabajar sin conexión a internet, quitando las partes obvias como canales de comunicación y demás. Como puede que la aplicación se use en varios sistemas operativos, será desarrollada sobre [Electron](https://www.electronjs.org/)
 
-**[Índice](#index)**
+**[Índice](#índice)**
 
-## Estado del proyecto {#status}
+## Estado del proyecto
 
 Ahora mismo está todo por empezar.
 
 **[Índice](#índice)**
 
-## Por donde empezar {#getting-started}
+## Por donde empezar
 
 Como de momento no hay nada, aquí escribo lo que me gustaría que fuera la experiencia del desarrollador.
 
@@ -88,7 +88,7 @@ Este proyecto está en [Github](https://github.com/44r0n/miorganizador). Puedes 
 $ git clone git@github.com:44r0n/miorganizador.git
 ```
 
-## Proceso de liberación {#release}
+## Proceso de liberación
 
 Para liberar una versión se añadirá una etiqueta en la rama `main` con el nombre de la versión. Se lanzará cuando las caracterísitcas correspondientes sean añadidas y la rama se encuentre estable. Los instaladores de la aplicación se deberán añadir al apartado release del repositorio.
 
