@@ -1,9 +1,9 @@
 ---
 name: Reporte de error/Bug report
 about: Avisanos de un error/Create a report to help us improve
-title: ''
+title: 'Error: '
 labels: 'bug'
-assignees: ''
+assignees: '44r0n'
 
 ---
 

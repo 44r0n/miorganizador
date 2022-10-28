@@ -3,12 +3,12 @@ name: Pregunta/Question
 about: Usa esta plantilla para reaizar una preguta sobre el proyecto/Use this template to ask a question about the project
 title: ''
 labels: 'question'
-assignees: ''
+assignees: '44r0n'
 ---
 
 ## Pregunta/Question
 
-CUerpo de la pregunta/State your question
+Cuerpo de la pregunta/State your question
 
 ## Ejeplo de código/Sample Code
 
