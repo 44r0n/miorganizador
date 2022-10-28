@@ -71,7 +71,7 @@ $ npm run build
 
 Para cada versión de la aplicación se debería dejar un paquete compilado en modo release en el apartado de releases.
 
-**[Índice](#index)**
+**[Índice](#índice)**
 
 ### Dependencias
 
@@ -79,7 +79,7 @@ No sé si habrán imágenes en el proyecto, si las hay deberán ser gestionadas 
 
 El resto de dependencias del proyecto deberán ser instaladas con `npm i`.
 
-**[Índice](#index)**
+**[Índice](#índice)**
 
 ### Obteniendo el código
 
@@ -104,7 +104,7 @@ Si necesitas ayuda no dudes en abrir una issue de pregunta.
 
 Si quieres contribuir al proyecto, por favor lee [como contribuir](CONTRIBUTING.md).
 
-**[Índice](#index)**
+**[Índice](#índice)**
 
 ## License
 
@@ -112,11 +112,11 @@ Este proyecto está licenciado bajo GNU v3. Comprueba [LICENSE.md](LICENSE.md) p
 
 This project is licensed under the XXXXXX License - see [LICENSE.md](LICENSE.md) file for details.
 
-**[Índice](#index)**
+**[Índice](#índice)**
 
 ## Autores
 
 * **[Aarón Sánchez Navarro](https://github.com/44r0n)** - *Trabajo inicial* - 
 
-**[Índice](#index)**
+**[Índice](#índice)**
 
