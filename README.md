@@ -8,7 +8,7 @@ Sé que será un camino difícil, me lo tomaré con paciencia. Si por el camino 
 
 Puedes ver más detalles [aquí]().
 
-## Índice{#index}
+## Índice {#index}
 
 1. [Sobre Mi Organizador](#about)
 1. [Estado del pryecto](#status)
@@ -21,7 +21,7 @@ Puedes ver más detalles [aquí]().
 1. [Licencia](#licencia)
 1. [Autores](#autores)
 
-## Sobre Mi Organizador{#about}
+## Sobre Mi Organizador {#about}
 
 Hay varios aspectos que me gustaría controlar. Como de momento no hay nada hecho, esta lista de aquí abajo es mas bien una lista de deseos.
 
@@ -34,13 +34,13 @@ Viendo ~~las necesidades~~ los deseos que tengo para esta aplicación, se ve cla
 
 **[Índice](#index)**
 
-## Estado del proyecto{#status}
+## Estado del proyecto {#status}
 
 Ahora mismo está todo por empezar.
 
 **[Índice](#índice)**
 
-## Por donde empezar{#getting-started}
+## Por donde empezar {#getting-started}
 
 Como de momento no hay nada, aquí escribo lo que me gustaría que fuera la experiencia del desarrollador.
 
@@ -88,7 +88,7 @@ Este proyecto está en [Github](https://github.com/44r0n/miorganizador). Puedes 
 $ git clone git@github.com:44r0n/miorganizador.git
 ```
 
-## Proceso de liberación{#release}
+## Proceso de liberación {#release}
 
 Para liberar una versión se añadirá una etiqueta en la rama `main` con el nombre de la versión. Se lanzará cuando las caracterísitcas correspondientes sean añadidas y la rama se encuentre estable. Los instaladores de la aplicación se deberán añadir al apartado release del repositorio.
 
