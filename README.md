@@ -2,7 +2,7 @@
 
 Llevo tiempo intentando organizar mi vida. Como todo el mundo. Y no es una tarea fácil. Intento tener mis finanzas controladas, saber las tareas que tengo pendientes, si he quedado con alguien y alguien me dice de queda el mismo día debo acordarme y decirle que no, tengo varios canales de comunicación entre email, Telegram, Twitter...
 
-Sé que hay applicaciones que solventan las cosas por separado, pero me gustaría tenerlo todo en un mismo lugar. Puede que ya exista algo, pero me gustaría intentar hacer una aplicación a mi gusto. Así que en esta aplicación es la herramienta para organizar mi vida.
+Hay applicaciones que solventan las cosas por separado, pero me gustaría tenerlo todo en un mismo lugar. Puede que ya exista algo, pero me gustaría intentar hacer una aplicación a mi gusto. Así que en esta aplicación es la herramienta para organizar mi vida.
 
 Sé que será un camino difícil, me lo tomaré con paciencia. Si por el camino aprendo algo o a alguien le sirve esta aplicación, mucho mejor.
 
@@ -38,7 +38,7 @@ Viendo ~~las necesidades~~ los deseos que tengo para esta aplicación, se ve cla
 
 Ahora mismo está todo por empezar.
 
-**[Índice](#indice)**
+**[Índice](#índice)**
 
 ## Por donde empezar
 
