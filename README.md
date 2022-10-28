@@ -1,175 +1,122 @@
 # Mi Organizador
 
-Este es un proyecto para organizar mis cosas, sé que hay aplicaciones que hacen lo mismo y seguramente mejor que esta, pero quería hacerlo por mi mismo y, de paso, aprender por el camino. 
+Llevo tiempo intentando organizar mi vida. Como todo el mundo. Y no es una tarea fácil. Intento tener mis finanzas controladas, saber las tareas que tengo pendientes, si he quedado con alguien y alguien me dice de queda el mismo día debo acordarme y decirle que no, tengo varios canales de comunicación entre email, Telegram, Twitter...
 
+Sé que hay applicaciones que solventan las cosas por separado, pero me gustaría tenerlo todo en un mismo lugar. Puede que ya exista algo, pero me gustaría intentar hacer una aplicación a mi gusto. Así que en esta aplicación es la herramienta para organizar mi vida.
 
-## Índice/Table of Contents
+Sé que será un camino difícil, me lo tomaré con paciencia. Si por el camino aprendo algo o a alguien le sirve esta aplicación, mucho mejor.
 
-1. [About the Project](#about-the-project)
+Puedes ver más detalles [aquí]().
+
+## Índice
+
+1. [Sobre Mi Organizador](#sobre-mi-organizador)
 1. [Project Status](#project-status)
 1. [Getting Started](#getting-started)
-	1. [Dependencies](#dependencies)
-	1. [Building](#building)
-	2. [Running Tests](#running-tests)
-		1. [Other Tests](#other-tests)
-	1. [Installation](#installation)
-	1. [Usage](#usage)
-1. [Release Process](#release-process)
-	1. [Versioning](#versioning)
-	1. [Payload](#payload)
-1. [How to Get Help](#how-to-get-help)
-1. [Contributing](#contributing)
-1. [Further Reading](#further-reading)
-1. [License](#license)
-1. [Authors](#authors)
-1. [Acknowledgments](#acknowledgements)
+	1. [Dependencias](#dependencias)
+1. [Proceso de liberación](#proceso-de-liberacion)
+	1. [Versionado](#versionado)
+1. [Obteniendo ayuda](#obteniendo-ayuda)
+1. [Contribuyendo](#contribuyendo)
+1. [Licencia](#licencia)
+1. [Autores](#autores)
 
-## Sobre el proyecto/About the Project
+## Sobre Mi Organizador
 
-Desde hace un tiempo he sentido la necesidad de tener en un solo lugar todas "mis" cosas. Normalmente he tenido apuntado en aplicaciones de notas, calendario, repartido en ficheros, o apuntado en libretas haciendo cálculos a mano. 
+Hay varios aspectos que me gustaría controlar. Como de momento no hay nada hecho, esta lista de aquí abajo es mas bien una lista de deseos.
 
-A "mis" cosas me refiero a, lista de la compra, anotación de eventos o recordatorios incluso anotación de las nóminas para tener los datos necesarios para la declaración de hacianda. 
+- Un apartado siempre visible del tiempo actual (fondo de pantalla dinámico?). Así como una parte con la previsión del tiempo. Esta parte parece un poco absurda, pero me sirve para planificar lavadoras o quedadas con amigos.
+- Un apartado en el que controlar mis finanzas. Últimamente estoy intentando tenerlo controlado con un método llamado [Kakebo](https://www.google.com/search?hl=es&q=kakebo). Me está gustando bastante, pero la forma que tengo en mente para llevarlo requiere de algunas modificaciones.
+- Hay muchos canales de comunicación en el mundo, y suelo usar varios a la vez y tengo que ir saltando de una a la otra. Me gustaría tener esto centralizado.
+- Si a todo esto le podemos añadir gestión de calendario y tareas sería la aplicación ideal para mí.
 
-Como no encontraba nada de mi gusto, decidí hacer mi propia apliación para uso personal y poder oragnizarme como a mi me interesa, teniendo todas las cosas en un solo lugar. Por el camino a puede que aprenda algo o puede que a alguien le sirva. 
+Viendo ~~las necesidades~~ los deseos que tengo para esta aplicación, se ve claramente que maneja información sensible, por lo que no quiero que se quede en algún servidor. Será una aplicación de escritorio en la que se pueda trabajar sin conexión a internet, quitando las partes obvias como canales de comunicación y demás. Como puede que la aplicación se use en varios sistemas operativos, será desarrollada sobre [Electron](https://www.electronjs.org/)
 
-[Enlace a la web]
+**[Índice](#indice)**
 
-**[Back to top](#table-of-contents)**
+## Estado del proyecto
 
-## Estado del proyecto/Project Status
+Ahora mismo está todo por empezar.
 
-[![Build Status](http://your-server:12345/job/badge/icon)](http://your-server/job/badge/icon/)
+**[Índice](#indice)**
 
-Actualmente no hay build disponible, hay que configurar el repositorio para generarlo. Se desea que compile de manera multiplataforma.
+## Por donde empezar
 
-**[Back to top](#table-of-contents)**
+Como de momento no hay nada, aquí escribo lo que me gustaría que fuera la experiencia del desarrollador.
 
-## Empezando/Getting Started
-
-De momento no hay proyecto iniciado, así que el listado de a coniuación es como me gustaría que funcionase:
-
-Se debería poder arrancar el proyecto con un sencillo comando como:
+Una vez clonado el proyecto, se deberían poder instalar las dependencias:
 ```
-$ npm run start
+$ npm i
 ```
 
-Se debería poder ejecutar los test de forma sencilla con un comando como:
+La aplicación se debe poder lanzada en modo desarrollo con un comando:
+```
+$ npm start
+```
+
+Los test deben ser poder lanzados de forma contínua para desarrollo:
 ```
 $ npm run test
 ```
 
-Estaría bien poder ejecutar los test en segudno plano con un comando como:
+Y deberían diferenciarse de los test que se lanzan en la integración contínua:
 ```
-$ npm run test:dev
+$ npm run test-ci
 ```
 
-Se debería poder construir el proyecto con un comando como:
+Se debería poder construir un instalable para cada plataforma con un comando:
 ```
 $ npm run build
 ```
 
-### Dependencias/Dependencies
+Para cada versión de la aplicación se debería dejar un paquete compilado en modo release en el apartado de releases.
 
-Las dependencias del proyecto deberían estar listadas en un fichero, como `package.json` y poder ser instaladas con un comando, `npm install`. Seguramente se neceistará tener habilitado `git-lfs`.
+**[Índice](#indice)**
 
-### Getting the Source
+### Dependencias
 
-Include a link to your GitHub repository (you have no idea how people will find your code), and also a summary of how to clone.
+No sé si habrán imágenes en el proyecto, si las hay deberán ser gestionadas con `git-lfs`, habrá que notificarlo como dependencia.
 
-This project is [hosted on GitHub](https://github.com/embeddedartistry/embedded-resources). You can clone this project directly using this command:
+El resto de dependencias del proyecto deberán ser instaladas con `npm i`.
 
+**[Índice](#indice)**
+
+### Obteniendo el código
+
+Este proyecto está en [Github](https://github.com/44r0n/miorganizador). Puedes clonar el proyecto con el siguiente comando:
 ```
-git clone git@github.com:embeddedartistry/templates.git
-```
-
-### Building
-
-Instructions for how to build your project
-
-```
-Examples should be included
+$ git clone git@github.com:44r0n/miorganizador.git
 ```
 
-### Running Tests
+## Proceso de liberación
 
-Describe how to run unit tests for your project.
+Para liberar una versión se añadirá una etiqueta en la rama `main` con el nombre de la versión. Se lanzará cuando las caracterísitcas correspondientes sean añadidas y la rama se encuentre estable. Los instaladores de la aplicación se deberán añadir al apartado release del repositorio.
 
-```
-Examples should be included
-```
+### Versionado
 
-#### Other Tests
+El proyecto usa [versionado semántico](http://semver.org/). Para ver las versiones disponibles visita [las etiquetas del proyecto](https://github.com/44r0n/miorganizador/tags).
 
-If you have formatting checks, coding style checks, or static analysis tests that must pass before changes will be considered, add a section for those and provide instructions
+## Obteniendo ayuda
 
-### Installation
+Si necesitas ayuda no dudes en abrir una issue de pregunta.
 
-Instructions for how to install your project's build artifacts
+## Contribuyendo
 
-```
-Examples should be included
-```
+Si quieres contribuir al proyecto, por favor lee [como contribuir](CONTRIBUTING.md).
 
-### Usage
-
-Instructions for using your project. Ways to run the program, how to include it in another project, etc.
-
-```
-Examples should be included
-```
-
-If your project provides an API, either provide details for usage in this document or link to the appropriate API reference documents
-
-**[Back to top](#table-of-contents)**
-
-## Release Process
-
-Talk about the release process. How are releases made? What cadence? How to get new releases?
-
-### Versioning
-
-This project uses [Semantic Versioning](http://semver.org/). For a list of available versions, see the [repository tag list](https://github.com/your/project/tags).
-
-### Payload
-
-**[Back to top](#table-of-contents)**
-
-## How to Get Help
-
-Provide any instructions or contact information for users who need to get further help with your project.
-
-## Contributing
-
-Provide details about how people can contribute to your project. If you have a contributing guide, mention it here. e.g.:
-
-We encourage public contributions! Please review [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on our code of conduct and development process.
-
-**[Back to top](#table-of-contents)**
-
-## Further Reading
-
-Provide links to other relevant documentation here
-
-**[Back to top](#table-of-contents)**
+**[Índice](#indice)**
 
 ## License
 
-Copyright (c) 2021 Embedded Artistry LLC
+Este proyecto está licenciado bajo GNU v3. Comprueba [LICENSE.md](LICENSE.md) para más detalles.
 
 This project is licensed under the XXXXXX License - see [LICENSE.md](LICENSE.md) file for details.
 
-**[Back to top](#table-of-contents)**
+**[Índice](#indice)**
 
-## Authors
+## Autores
 
-* **[Phillip Johnston](https://github.com/phillipjohnston)** - *Initial work* - [Embedded Artistry](https://github.com/embeddedartistry)
+* **[Aarón Sánchez Navarro](https://github.com/44r0n)** - *Trabajo inicial* - 
 
-Also see the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+**[Índice](#indice)**
 
-**[Back to top](#table-of-contents)**
-
-## Acknowledgments
-
-Provide proper credits, shout-outs, and honorable mentions here. Also provide links to relevant repositories, blog posts, or contributors worth mentioning.
-
-**[Back to top](#table-of-contents)**
