@@ -25,7 +25,7 @@ Puedes ver más detalles [aquí]().
 
 ## Sobre Mi Organizador
 
-Hay varios aspectos que me gustaría controlar. Como de momento no hay nada hecho, esta lista de aquí abajo es mas bien una lista de deseos.
+Hay varios aspectos de mi vida que me gustaría controlar. Como de momento no hay nada hecho, esta lista de aquí abajo es mas bien una lista de deseos.
 
 - Un apartado siempre visible del tiempo actual (fondo de pantalla dinámico?). Así como una parte con la previsión del tiempo. Esta parte parece un poco absurda, pero me sirve para planificar lavadoras o quedadas con amigos.
 - Un apartado en el que controlar mis finanzas. Últimamente estoy intentando tenerlo controlado con un método llamado [Kakebo](https://www.google.com/search?hl=es&q=kakebo). Me está gustando bastante, pero la forma que tengo en mente para llevarlo requiere de algunas modificaciones.
