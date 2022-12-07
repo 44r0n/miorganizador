@@ -1,5 +1,7 @@
 # Contribuyendo
 
+[In English](CONTRIBUTING-en.md)
+
 Antes que nada, gracias por considerar contribuir con Mi Organizador. Son las personas como tu las que hacen que Mi Organizador sea una herramienta tan genial.
 
 Esta guía te ayudará a comunicarte indicando que respetas el tiempo de las personas que getionan y desarrollan este proyecto. A cambio, recibirás el mismo respeto, abordando tu problema, y ayudándote a finalizar tus pull requests.
