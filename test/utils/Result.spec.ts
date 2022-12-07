@@ -1,5 +1,4 @@
-import { Result } from 'utils/index';
-
+import * as Result from 'utils/Result';
 
 describe('Result', () => {
 

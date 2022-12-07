@@ -1,4 +1,4 @@
-import { Maybe } from 'utils/index';
+import * as Maybe from 'utils/Maybe';
 
 
 describe('Maybe', () => {
