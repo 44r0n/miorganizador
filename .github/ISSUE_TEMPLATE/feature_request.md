@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**¿Tue característica está relacionada con un problema? Por favor, descríbela./Is your feature request related to a problem? Please describe.**
+**¿Tu característica está relacionada con un problema? Por favor, descríbela./Is your feature request related to a problem? Please describe.**
 Descripción detallada del problema. Por ejemplo: Siempre me frustra cuando [...]/A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
 **Detalla la solución que te gustaría./Describe the solution you'd like**
