@@ -31,8 +31,16 @@ Hay varios aspectos de mi vida que me gustaría controlar. Como de momento no ha
 - Un apartado en el que controlar mis finanzas. Últimamente estoy intentando tenerlo controlado con un método llamado [Kakebo](https://www.google.com/search?hl=es&q=kakebo). Me está gustando bastante, pero la forma que tengo en mente para llevarlo requiere de algunas modificaciones.
 - Hay muchos canales de comunicación en el mundo, y suelo usar varios a la vez y tengo que ir saltando de una a la otra. Me gustaría tener esto centralizado.
 - Si a todo esto le podemos añadir gestión de calendario y tareas sería la aplicación ideal para mí.
+- Sería genial poder compartir esta información y poder elegir que tipo de infomración se quiere compartir con otro usuario, invitándolo a poder ver y editar su kakebo, calendario, etc.
+- La información debería ser poder ser accesible desde distintos dispositivos, escritorio, movil, tablet...
 
-Viendo ~~las necesidades~~ los deseos que tengo para esta aplicación, se ve claramente que maneja información sensible, por lo que no quiero que se quede en algún servidor. Será una aplicación de escritorio en la que se pueda trabajar sin conexión a internet, quitando las partes obvias como canales de comunicación y demás. Como puede que la aplicación se use en varios sistemas operativos, será desarrollada sobre [Electron](https://www.electronjs.org/)
+### Modo de uso e instalación:
+
+Me gustaría que la instalación fuera lo más sencilla posible, sin tener que obligar al usuario a instalar muchas dependencias, cuantas menos mejor. En el primer arranque de la aplicación tampoco quiero que haya muchas complicaciones, tal vez se debería registrar el usuario con su contraseña y si no se complica mucho un listado de módulos a activar. Esto obligaría a catalogar cada característica dentro de modulos.
+
+### Desarrollo y trabajo
+
+Para desarrollar la aplicaciópn me gustaría que, al igual que la instalación, no tener que ir instalando dependencias de desarrollo y poder hacerlo de forma lo más sencilla posible, sin mucha complicación para el desarrollador.
 
 **[Índice](#índice)**
 
@@ -42,53 +50,6 @@ Ahora mismo está todo por empezar.
 
 **[Índice](#índice)**
 
-## Por donde empezar
-
-Como de momento no hay nada, aquí escribo lo que me gustaría que fuera la experiencia del desarrollador.
-
-Una vez clonado el proyecto, se deberían poder instalar las dependencias:
-```
-$ npm i
-```
-
-La aplicación se debe poder lanzada en modo desarrollo con un comando:
-```
-$ npm start
-```
-
-Los test deben ser poder lanzados de forma contínua para desarrollo:
-```
-$ npm run test
-```
-
-Y deberían diferenciarse de los test que se lanzan en la integración contínua:
-```
-$ npm run test-ci
-```
-
-Se debería poder construir un instalable para cada plataforma con un comando:
-```
-$ npm run build
-```
-
-Para cada versión de la aplicación se debería dejar un paquete compilado en modo release en el apartado de releases.
-
-**[Índice](#índice)**
-
-### Dependencias
-
-No sé si habrán imágenes en el proyecto, si las hay deberán ser gestionadas con `git-lfs`, habrá que notificarlo como dependencia.
-
-El resto de dependencias del proyecto deberán ser instaladas con `npm i`.
-
-**[Índice](#índice)**
-
-### Obteniendo el código
-
-Este proyecto está en [Github](https://github.com/44r0n/miorganizador). Puedes clonar el proyecto con el siguiente comando:
-```
-$ git clone git@github.com:44r0n/miorganizador.git
-```
 
 ## Proceso de liberación
 
